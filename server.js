@@ -40,6 +40,8 @@ if (process.env.NODE_ENV !== 'test') {
     });
 }
 
+//Trigger CI for Lab 6
+
 module.exports = app;
 // CI trigger for Lab 6
 // trigger CI after adding secrets
