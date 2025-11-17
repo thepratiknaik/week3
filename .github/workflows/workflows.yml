@@ -1,4 +1,3 @@
-cat > .github/workflows/workflow.yml <<'YML'
 name: CI
 
 on:
@@ -43,4 +42,3 @@ jobs:
 
       - name: Run tests
         run: npm test -- --runInBand --testTimeout=20000
-YML
